@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Registration</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <h1>Registrar un Libro</h1>
+    <form id="libroForm">
+        <input type="text" id="titulo" placeholder="Título" required>
+        <input type="text" id="autor" placeholder="Autor" required>
+        <input type="number" id="anio" placeholder="Año" required>
+        <button id="btnRegistrar" type="button">Registrar</button>
+    </form>
+    <h2>Libros Registrados</h2>
+    <ul id="listaLibros" class="listaLibros"></ul>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
